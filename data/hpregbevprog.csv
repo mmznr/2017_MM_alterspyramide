@@ -1,0 +1,169 @@
+zz;ObWin;BFS.NR;ARE.NR;Gemeinde;HR.Code;REG;region
+13;30;1;13;Aeugst am Albis;4;3;Knonaueramt
+14;30;2;14;Affoltern am Albis;2;3;Knonaueramt
+15;30;3;15;Bonstetten;3;3;Knonaueramt
+16;30;4;16;Hausen am Albis;4;3;Knonaueramt
+17;30;5;17;Hedingen;2;3;Knonaueramt
+18;30;6;18;Kappel am Albis;4;3;Knonaueramt
+19;30;7;19;Knonau;3;3;Knonaueramt
+20;30;8;20;Maschwanden;4;3;Knonaueramt
+21;30;9;21;Mettmenstetten;3;3;Knonaueramt
+22;30;10;22;Obfelden;3;3;Knonaueramt
+23;30;11;23;Ottenbach;3;3;Knonaueramt
+24;30;12;24;Rifferswil;4;3;Knonaueramt
+25;30;13;25;Stallikon;4;3;Knonaueramt
+26;30;14;26;Wettswil am Albis;3;3;Knonaueramt
+115;100;21;117;Adlikon;3;10;Weinland
+116;100;22;120;Benken (ZH);4;10;Weinland
+117;100;23;121;Berg am Irchel;4;10;Weinland
+118;100;24;122;Buch am Irchel;5;10;Weinland
+119;100;25;123;Dachsen;4;10;Weinland
+120;100;26;124;Dorf;4;10;Weinland
+121;100;27;125;Feuerthalen;2;10;Weinland
+122;100;28;126;Flaach;4;10;Weinland
+123;100;29;127;Flurlingen;2;10;Weinland
+124;100;30;119;Andelfingen;3;10;Weinland
+125;100;31;128;Henggart;3;10;Weinland
+126;100;32;129;Humlikon;3;10;Weinland
+127;100;33;130;Kleinandelfingen;3;10;Weinland
+128;100;34;131;Laufen-Uhwiesen;4;10;Weinland
+129;100;35;132;Marthalen;4;10;Weinland
+130;100;36;133;Oberstammheim;4;10;Weinland
+131;100;37;134;Ossingen;4;10;Weinland
+132;100;38;135;Rheinau;4;10;Weinland
+133;100;39;136;Thalheim an der Thur;4;10;Weinland
+134;100;40;137;Trüllikon;4;10;Weinland
+135;100;41;138;Truttikon;4;10;Weinland
+136;100;42;139;Unterstammheim;4;10;Weinland
+137;100;43;140;Volken;4;10;Weinland
+138;100;44;141;Waltalingen;4;10;Weinland
+139;110;51;142;Bachenbülach;2;11;Unterland
+57;60;52;51;Bassersdorf;1;6;Glattal
+141;110;53;144;Bülach;2;11;Unterland
+63;60;54;52;Dietlikon;1;6;Glattal
+143;110;55;146;Eglisau;5;11;Unterland
+144;110;56;147;Embrach;3;11;Unterland
+145;110;57;148;Freienstein-Teufen;3;11;Unterland
+146;110;58;149;Glattfelden;4;11;Unterland
+147;110;59;150;Hochfelden;3;11;Unterland
+148;110;60;151;Höri;2;11;Unterland
+149;110;61;152;Hüntwangen;4;11;Unterland
+51;60;62;55;Kloten;1;6;Glattal
+151;110;63;153;Lufingen;4;11;Unterland
+59;60;64;57;Nürensdorf;4;6;Glattal
+153;110;65;158;Oberembrach;4;11;Unterland
+52;60;66;58;Opfikon;1;6;Glattal
+155;110;67;161;Rafz;4;11;Unterland
+156;110;68;163;Rorbas;3;11;Unterland
+53;60;69;62;Wallisellen;1;6;Glattal
+150;110;70;168;Wasterkingen;4;11;Unterland
+159;110;71;170;Wil (ZH);4;11;Unterland
+160;110;72;171;Winkel;3;11;Unterland
+161;110;81;143;Bachs;5;11;Unterland
+67;70;82;64;Boppelsen;5;7;Furttal
+65;70;83;65;Buchs (ZH);3;7;Furttal
+68;70;84;66;Dällikon;3;7;Furttal
+69;70;85;67;Dänikon;3;7;Furttal
+158;110;86;145;Dielsdorf;3;11;Unterland
+71;70;87;68;Hüttikon;3;7;Furttal
+163;110;88;154;Neerach;4;11;Unterland
+164;110;89;155;Niederglatt;3;11;Unterland
+157;110;90;156;Niederhasli;3;11;Unterland
+162;110;91;157;Niederweningen;3;11;Unterland
+166;110;92;159;Oberglatt;3;11;Unterland
+167;110;93;160;Oberweningen;4;11;Unterland
+66;70;94;69;Otelfingen;3;7;Furttal
+154;110;95;162;Regensberg;5;11;Unterland
+70;70;96;70;Regensdorf;2;7;Furttal
+55;60;97;59;Rümlang;3;6;Glattal
+152;110;98;164;Schleinikon;4;11;Unterland
+165;110;99;165;Schöfflisdorf;4;11;Unterland
+140;110;100;166;Stadel;4;11;Unterland
+168;110;101;167;Steinmaur;4;11;Unterland
+142;110;102;169;Weiach;4;11;Unterland
+74;81;111;71;Bäretswil;3;8;Oberland E
+82;82;112;73;Bubikon;3;8;Oberland W
+83;82;113;74;Dürnten;2;8;Oberland W
+73;81;114;76;Fischenthal;4;8;Oberland E
+91;82;115;77;Gossau (ZH);3;8;Oberland W
+85;82;116;79;Grüningen;4;8;Oberland W
+86;82;117;80;Hinwil;2;8;Oberland W
+80;82;118;85;Rüti (ZH);2;8;Oberland W
+90;82;119;86;Seegräben;3;8;Oberland W
+75;81;120;89;Wald (ZH);4;8;Oberland E
+84;82;121;90;Wetzikon (ZH);2;8;Oberland W
+30;40;131;27;Adliswil;2;4;Zimmerberg
+29;40;132;28;Hirzel;5;4;Zimmerberg
+27;40;133;29;Horgen;2;4;Zimmerberg
+31;40;134;30;Hütten;4;4;Zimmerberg
+32;40;135;31;Kilchberg (ZH);2;4;Zimmerberg
+33;40;136;32;Langnau am Albis;2;4;Zimmerberg
+28;40;137;33;Oberrieden;2;4;Zimmerberg
+34;40;138;34;Richterswil;2;4;Zimmerberg
+38;40;139;35;Rüschlikon;2;4;Zimmerberg
+36;40;140;36;Schönenberg (ZH);4;4;Zimmerberg
+37;40;141;37;Thalwil;2;4;Zimmerberg
+35;40;142;38;Wädenswil;2;4;Zimmerberg
+41;50;151;40;Erlenbach (ZH);2;5;Pfannenstiel
+49;50;152;41;Herrliberg;2;5;Pfannenstiel
+47;50;153;42;Hombrechtikon;4;5;Pfannenstiel
+39;50;154;43;Küsnacht (ZH);2;5;Pfannenstiel
+44;50;155;44;Männedorf;2;5;Pfannenstiel
+45;50;156;45;Meilen;2;5;Pfannenstiel
+42;50;157;46;Oetwil am See;3;5;Pfannenstiel
+40;50;158;47;Stäfa;2;5;Pfannenstiel
+48;50;159;48;Uetikon am See;2;5;Pfannenstiel
+50;50;160;50;Zumikon;2;5;Pfannenstiel
+46;50;161;49;Zollikon;2;5;Pfannenstiel
+81;82;172;75;Fehraltorf;3;8;Oberland W
+79;81;173;81;Hittnau;4;8;Oberland E
+93;92;176;106;Lindau;3;9;Winterthur Land
+88;82;177;83;Pfäffikon;2;8;Oberland W
+76;81;178;84;Russikon;4;8;Oberland E
+94;92;180;113;Weisslingen;4;9;Winterthur Land
+77;81;181;91;Wila;4;8;Oberland E
+72;81;182;92;Wildberg;4;8;Oberland E
+62;60;191;53;Dübendorf;1;6;Glattal
+43;50;192;39;Egg;3;5;Pfannenstiel
+56;60;193;54;Fällanden;3;6;Glattal
+61;60;194;78;Greifensee;2;6;Glattal
+54;60;195;56;Maur;3;6;Glattal
+89;82;196;82;Mönchaltorf;4;8;Oberland W
+60;60;197;60;Schwerzenbach;2;6;Glattal
+87;82;198;88;Uster;2;8;Oberland W
+58;60;199;61;Volketswil;2;6;Glattal
+64;60;200;63;Wangen-Brüttisellen;1;6;Glattal
+95;92;211;118;Altikon;4;9;Winterthur Land
+96;92;213;94;Brütten;4;9;Winterthur Land
+100;92;214;95;Dägerlen;4;9;Winterthur Land
+97;92;215;96;Dättlikon;5;9;Winterthur Land
+98;92;216;97;Dinhard;4;9;Winterthur Land
+99;92;217;98;Elgg;3;9;Winterthur Land
+112;92;218;99;Ellikon an der Thur;4;9;Winterthur Land
+101;92;219;100;Elsau;1;9;Winterthur Land
+102;92;220;101;Hagenbuch;4;9;Winterthur Land
+103;92;221;102;Hettlingen;3;9;Winterthur Land
+104;92;222;103;Hofstetten (ZH);4;9;Winterthur Land
+105;92;223;107;Neftenbach;3;9;Winterthur Land
+106;92;224;108;Pfungen;3;9;Winterthur Land
+107;92;225;109;Rickenbach (ZH);3;9;Winterthur Land
+108;92;226;110;Schlatt (ZH);4;9;Winterthur Land
+109;92;227;111;Seuzach;2;9;Winterthur Land
+110;92;228;112;Turbenthal;3;9;Winterthur Land
+92;91;230;115;Winterthur;1;9;Winterthur Stadt
+111;92;231;116;Zell (ZH);3;9;Winterthur Land
+11;20;241;2;Aesch (ZH);3;2;Limmattal
+12;20;242;3;Birmensdorf (ZH);3;2;Limmattal
+2;20;243;4;Dietikon;1;2;Limmattal
+3;20;244;5;Geroldswil;2;2;Limmattal
+7;20;245;6;Oberengstringen;1;2;Limmattal
+4;20;246;7;Oetwil an der Limmat;2;2;Limmattal
+5;20;247;8;Schlieren;1;2;Limmattal
+6;20;248;9;Uitikon;3;2;Limmattal
+10;20;249;10;Unterengstringen;1;2;Limmattal
+8;20;250;11;Urdorf;1;2;Limmattal
+9;20;251;12;Weiningen (ZH);1;2;Limmattal
+1;10;261;1;Zürich;1;1;Zürich
+114;92;296;NA;Illnau-Effretikon;2;9;Winterthur Land
+78;81;297;NA;Bauma;4;8;Oberland E
+113;92;298;NA;Wiesendangen;2;9;Winterthur Land
