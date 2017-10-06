@@ -6,7 +6,7 @@
 		// Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
 		var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
 		var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
-		// At least Safari 3+: "[object HTMLElementConstructor]"
+		// At least Safari 3: "[object HTMLElementConstructor]"
 		var isChrome = !!window.chrome && !isOpera;              // Chrome 1+
 		var isIE = /*@cc_on!@*/false || !!document.documentMode; // At least IE6
 
@@ -39,12 +39,12 @@
 			legendeLeft = 15,
 			legendeTop = 0,
 			//w = 532,
-			w = 860 - margin.left - margin.right,
+			w = 570 - margin.left - margin.right,
 			h = 550 - margin.top - margin.bottom,
-			wPyr = 400,
+			wPyr = 370,
 			hPyr=410,
 			hPyrPer = hPyr/111,
-			scaleF = 0.6,
+			scaleF = 0.3,
 			renderAusl = 1,
 			spiegel = 1;
 
@@ -59,10 +59,10 @@
 			.append('g')
 				.attr("transform", "translate(" + (margin.left) + "," + margin.top + ")");
 
-		var mapPfade = svg.append('g').attr('id', 'mapPfade').attr('transform', 'translate(' + (10) + ',' + (40) + ')scale('+scaleF+')');
-    var pyrGrBack = d3.select('#svg').append('g').attr('id','pyrGrBack').attr('transform', 'translate(' + (w-wPyr) + ',' + (0) + ')');
-    var pyrGr = d3.select('#svg').append('g').attr('id','pyrGr').attr('transform', 'translate(' + (w-wPyr/2) + ',' + (0) + ')');
+    var pyrGrBack = d3.select('#svg').append('g').attr('id','pyrGrBack').attr('transform', 'translate(' + (40) + ',' + (0) + ')');
+    var pyrGr = d3.select('#svg').append('g').attr('id','pyrGr').attr('transform', 'translate(' + (40+wPyr/2) + ',' + (0) + ')');
 
+		var mapPfade = svg.append('g').attr('id', 'mapPfade').attr('transform', 'translate(' + (wPyr) + ',' + (40) + ')scale('+scaleF+')');
 		var karte = mapPfade.append('g').attr("id", "chart").append("g").attr('id', 'karte');
 
     var defs = d3.select('#svg').append("defs")

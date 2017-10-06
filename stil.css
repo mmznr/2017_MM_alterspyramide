@@ -2,8 +2,8 @@
 
 * { font-family: Helvetica, Arial, sans-serif;
 	font-size: 12px;
-    margin: 0;
-    background: whitesmoke;
+  margin: 0px;
+  background: whitesmoke;
 }
 
 select{
@@ -32,12 +32,7 @@ path.See {
   font-size: 14px;
 }
 
-div {
-    padding-left: 0px;
-}
-p {
-    padding: 0px 1px;
-}
+
 
 .legende {
 	font-size: 12px;
@@ -107,7 +102,7 @@ p {
   pointer-events: stroke;
   stroke-width: 50px;
   stroke: transparent;
-  cursor: w-resize;
+  cursor: ew-resize;
 }
 
 .handle {
@@ -150,28 +145,61 @@ rect {
 }
 
 
-ul {
-    margin-left: 100px;
-    list-style-type: none;
+
+div.table {
+  display: table;
+  width: 870px;
+  padding: 5px;
 }
 
+div.spalte1 { 
+  width: 55%;
+  display: table-cell;
+  padding: 5px;
+}
+div.spalte2 { 
+  display: table-cell;
+  padding: 5px;
+}
+
+div.row {
+  width: 100%;
+  padding: 5px;
+  float: left;
+}
+
+ul {
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+}
 p {
   float: left;
   padding: 5px;
   font-size: 12px;
 }
+
+
+p.label {
+  width: 100px;
+}
+
+a {
+  float: right;
+}
+
 .control li { 
     background: none repeat scroll 0 0 white; 
     border-bottom: 1px solid #CCCCCC; 
     border-left: 1px solid #CCCCCC; 
     border-top: 1px solid #CCCCCC; 
     color: #444444; 
-    width: 90.5px;
+    width: 110px;
     text-align: center;
     cursor: pointer; 
     float: left; 
     margin: 0;
-    padding: 3px 4px; 
+    padding: 3px 3px; 
 } 
 
 li.zus2 {
@@ -197,4 +225,32 @@ li.zus3 {
     font-weight: bold;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset; 
     color: #000000; 
-} 
+}
+
+.control li:hover {
+  background-color:#D3ECF7;
+}
+
+.myButton {
+  background-color:white;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #CCCCCC;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  padding: 3px 3px; 
+  text-decoration:none;
+}
+.myButton:hover {
+  background-color:#D3ECF7;
+}
+.myButton:active { 
+  border-color: #AAAAAA; 
+  font-weight: bold;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset; 
+  color: #000000; 
+  position:relative;
+  top:1px;
+}
