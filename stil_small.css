@@ -1,0 +1,256 @@
+/*css Datei für Alterpyramide*/
+
+* { font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+  margin: 0px;
+  background: whitesmoke;
+}
+
+select{
+    background: white;
+    margin: 2pt;
+    padding: 1pt;
+}
+svg {
+    background: white;
+}
+.Gemeinde {
+    stroke: grey;
+    stroke-opacity: 1;
+    fill-opacity: 0.5;
+    stroke-width: 0.5;
+    fill: white;
+}
+
+path.See {
+   fill: grey;
+   pointer-events: none;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+
+.legende {
+	font-size: 12px;
+    color: black;
+}
+
+.back {
+    fill:white;
+    stroke: dimgrey;
+    stroke-width: 0.5;
+}
+
+
+
+.grid .tick text {
+    stroke: none;
+	font-size: 12px;
+	fill: dimgrey;
+}
+
+.gridL .tick line {
+  stroke: lightgrey;
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.tick line {
+  stroke: grey;
+	fill: none;
+	shape-rendering: crispEdges;
+}
+
+.domain {
+    stroke: none;
+}
+
+
+.axis text {
+    font-family: Lato;
+    font-size: 13px;
+}
+
+
+
+.ticks {
+  font: 10px sans-serif;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+  stroke-linecap: round;
+}
+
+.track {
+  stroke: #000;
+  stroke-opacity: 0.3;
+  stroke-width: 10px;
+}
+
+.track-inset {
+  stroke: #ddd;
+  stroke-width: 8px;
+}
+
+.track-overlay {
+  pointer-events: stroke;
+  stroke-width: 50px;
+  stroke: transparent;
+  cursor: ew-resize;
+}
+
+.handle {
+  fill: #fff;
+  stroke: #000;
+  stroke-opacity: 0.5;
+  stroke-width: 1.25px;
+}
+
+
+
+.gemeindeLinien {
+    stroke: black;
+}
+
+
+.gemeindeKreise {
+    fill: steelblue;
+}
+
+rect {
+    stroke: none;
+}
+
+.maennerAusl {
+    fill: #3F98CC;
+    stroke: #3F98CC;
+}
+.frauenAusl {
+    fill: #A585B7;
+    stroke: #A585B7;
+}
+.maennerCH {
+    fill: #407B9F;
+    stroke: #407B9F;
+}
+.frauenCH {
+    fill: #857091;
+    stroke: #857091;
+}
+
+
+
+div.table {
+  display: table;
+  width: 570px;
+  padding: 5px;
+}
+
+div.spalte1 { 
+  width: 100%;
+  display: table-cell;
+  padding: 5px;
+}
+div.spalte2 { 
+  display: table-cell;
+  padding: 5px;
+}
+
+div.row {
+  width: 100%;
+  padding: 5px;
+  float: left;
+}
+
+ul {
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+p {
+  float: left;
+  padding: 5px;
+  font-size: 12px;
+}
+
+
+p.label {
+  width: 100px;
+}
+
+a {
+  float: right;
+}
+
+.control li { 
+    background: none repeat scroll 0 0 white; 
+    border-bottom: 1px solid #CCCCCC; 
+    border-left: 1px solid #CCCCCC; 
+    border-top: 1px solid #CCCCCC; 
+    color: #444444; 
+    width: 110px;
+    text-align: center;
+    cursor: pointer; 
+    float: left; 
+    margin: 0;
+    padding: 3px 3px; 
+} 
+
+li.zus2 {
+    border-left: none;
+    color: white;
+}
+
+li.zus3 {
+    border-left: none;
+    color: white;
+}
+
+.control li:first-of-type { 
+    border-radius: 4px 0 0 4px; 
+} 
+.control li:last-of-type { 
+    border-radius: 0 4px 4px 0; 
+    border-right: 1px solid #CCCCCC; 
+} 
+.control li.selected { 
+    background: none repeat scroll 0 0 #ccebf9; 
+    border-color: #AAAAAA; 
+    font-weight: bold;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset; 
+    color: #000000; 
+}
+
+.control li:hover {
+  background-color:#D3ECF7;
+}
+
+.myButton {
+  background-color:white;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #CCCCCC;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  padding: 3px 3px; 
+  text-decoration:none;
+}
+.myButton:hover {
+  background-color:#D3ECF7;
+}
+.myButton:active { 
+  border-color: #AAAAAA; 
+  font-weight: bold;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset; 
+  color: #000000; 
+  position:relative;
+  top:1px;
+}

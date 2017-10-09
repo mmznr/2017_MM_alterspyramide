@@ -3,21 +3,37 @@
 <head>
   <meta charset="utf-8">
   <script src="../lib/d3v4/d3.min.js"></script>
+  <script src="../lib/FileSaver.min.js"></script>
   <script src="js/script_small.js"></script>
   <script src="../lib/topojson.js"></script>
   <script src="../lib/statColor.js"></script>
   <script src="../lib/queue.js"></script>
-  <script src="../lib/d3sparql-master/d3parql.js"></script>
-  <link rel="stylesheet" href="stil.css">
+  <link rel="stylesheet" href="stil_small.css">
   <title>Alterspyramide</title>
   <link rel="shortcut icon" type="image/x-icon" href="../lib/stat.ico">
 </head>
 <body>
-	<div id='visDiv' class='inline'></div>
-  <div id = 'control' class='controlBar'>
-  <p>Für Experten:</p>
-    <ul class="control" id="controlUL">
-    </ul>
+  <div id='visDiv'></div>  
+  <div class="table">
+    <div class="spalte1">
+      <div class="row">   
+        <b>Hinweis zur Bedienung:</b></br> Die Region kann mit Klick auf die Karte ausgewählt werden.
+      </div>
+      <div class="row">
+        <b>Quellen:</b> Statistisches Amt Kanton Zürich
+        </br> 1995─2016 Kantonale Bevölkerungserhebungen, 2017─2040 Kantonale Bevölkerungsprognosen
+    </div>
+    <div id = 'control' class="row" label="">
+      <p class='label'>Für Expert/innen:</p>
+      <ul class="control" id="controlUL"></ul>
+    </div>
+    <div id = 'export' class="row">
+      <p class='label'>Export:</p>
+      <ul class="control" id="exportUL"></ul>
+      <a href="https://opendata.swiss/de/terms-of-use/" target="_blank">
+        <img border="0" src="../lib/terms_by.svg" alt="W3Schools"  height="32">
+      </a>
+    </div>
   </div>
 </body>
 </html>
