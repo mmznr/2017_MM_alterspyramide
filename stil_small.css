@@ -149,17 +149,18 @@ rect {
 div.table {
   display: table;
   width: 570px;
-  padding: 5px;
+  padding: 0px;
+  margin: 0px;
 }
 
 div.spalte1 { 
   width: 100%;
   display: table-cell;
-  padding: 5px;
+  padding: 2px 5px;
 }
 div.spalte2 { 
   display: table-cell;
-  padding: 5px;
+  padding: 2px 5px;
 }
 
 div.row {
@@ -254,3 +255,4 @@ li.zus3 {
   position:relative;
   top:1px;
 }
+
