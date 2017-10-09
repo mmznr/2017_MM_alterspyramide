@@ -41,7 +41,7 @@
 			//w = 532,
 			w = 570 - margin.left - margin.right,
 			h = 555 - margin.top - margin.bottom,
-			wPyr = 360,
+			wPyr = 470,
 			hPyr=410,
 			hPyrPer = hPyr/111,
 			scaleF = 0.37,
@@ -64,7 +64,7 @@
 		// 	.attr('id', 'title')
 		// 	.attr('pointer-events', 'none');
 		svg.append('desc')
-				.attr('desc', 'Eine interaktive Grafik zu den Untersciedlichen Alterspyramiden der Regionen des Kantons Zürich.')
+				.attr('desc', 'Eine interaktive Grafik zu den Unterschiedlichen Alterspyramiden der Regionen des Kantons Zürich.')
 				.attr('id', 'desc');
 
 		var svgGr = svg.append('g')
@@ -72,8 +72,8 @@
 
 
 
-    var pyrGrBack = d3.select('#svg').append('g').attr('id','pyrGrBack').attr('transform', 'translate(' + (30) + ',' + (50) + ')');
-    var pyrGr = d3.select('#svg').append('g').attr('id','pyrGr').attr('transform', 'translate(' + (30+wPyr/2) + ',' + (50) + ')');
+    var pyrGrBack = d3.select('#svg').append('g').attr('id','pyrGrBack').attr('transform', 'translate(' + (60) + ',' + (50) + ')');
+    var pyrGr = d3.select('#svg').append('g').attr('id','pyrGr').attr('transform', 'translate(' + (60+wPyr/2) + ',' + (50) + ')');
 
 		var mapPfade = d3.select('#svg').append('g').attr('id', 'mapPfade').attr('transform', 'translate(' + (wPyr+15) + ',' + (40) + ')scale('+scaleF+')');
 		var karte = mapPfade.append('g').attr("id", "chart").append("g").attr('id', 'karte');
@@ -95,7 +95,7 @@
 		
 		var slider = svgGr.append('g')
 			.attr('class', 'slider')
-			.attr('transform', 'translate('+(30)+','+(h)+')');
+			.attr('transform', 'translate('+(60)+','+(h)+')');
 	
 		var clip = defs.append('clipPath')
 			.attr('id', 'edge')
@@ -192,7 +192,7 @@
 
 		svgGr.append('text')
 			.attr('id', 'loader')
-			.attr('x', 185)
+			.attr('x', w/2)
 			.attr('y', h/2)
 			.attr('text-anchor', 'middle')
 			.text('Daten werden geladen')
@@ -349,6 +349,7 @@
         .range(['#dce8ef', '#0076BD'])
         .interpolate(d3.interpolateLab);
 
+/*
 			var anzRect = 30,
 				padding = 20
 				legW = w-wPyr-padding,
@@ -386,7 +387,7 @@
 						.style('font-family', 'Helvetica');
 	    	}
 	    }
-
+*/
       d3.select('#loader').remove();
 			
 			renderSlide();
@@ -397,7 +398,7 @@
 
 			//////////////
 			//RENDER
-			renderMap(mapData);
+			//renderMap(mapData);
 			handle.attr('cx', slideScale(formatYear(jahrSel)));
 			pyramide(dataSel, jahrSel, renderAusl,spiegel)
 		}
